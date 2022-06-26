@@ -1,0 +1,145 @@
+.chinh {
+    margin-top: 115px;
+    background-color: #000000;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.form-trang {
+    margin-top: 10px;
+    display: inline-block;
+    width: 60%;
+    height: 338px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgb(104, 100, 100);
+}
+
+.tieudedoctruyen {
+    text-align: left;
+}
+
+.tieudedoctruyen>a {
+    text-decoration: none;
+    color: #288AD6;
+    font-size: 14px;
+}
+
+.icon-next {
+    color: #ccc !important;
+    font-size: 12px !important;
+}
+
+.tentruyen-1 {
+    display: flex;
+    line-height: 46.4px;
+}
+
+.tentruyen-2 {
+    font-size: 24px;
+    color: #288AD6;
+    font-family: Tahoma, sans-serif;
+    line-height: 46.4px;
+}
+
+.tentruyen-2:hover {
+    color: #c57f2e;
+    text-decoration: underline 2px;
+
+}
+
+.chapter1 {
+    color: #000;
+    line-height: 46.4px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+.bgr-xam {
+    background-color: #F6F7F8;
+    height: 260px;
+    border: 1px solid #ccc;
+}
+
+.btn-chapter {
+    background-color: #D9EDF7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 40px 40px 40px;
+    line-height: 50px;
+
+}
+
+#theodoi-111,
+#server1 {
+    background-color: rgb(42, 134, 50);
+    border: rgb(42, 134, 50);
+}
+
+#baoloi111 {
+    background-color: rgb(188, 188, 38);
+    border: yellow;
+    margin-top: 10px;
+}
+
+#Logo,
+#header {
+    position: absolute;
+}
+
+.bg-primary {
+    margin-top: 0;
+}
+
+.manclub {
+    padding: 10px 0px;
+}
+
+img {
+    vertical-align: baseline;
+}
+
+/* Back to top */
+
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5, 76%, 62%, .8);
+
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8);
+}

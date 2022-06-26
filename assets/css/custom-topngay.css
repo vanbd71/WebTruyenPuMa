@@ -1,0 +1,28 @@
+.roww{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: -50px;
+}
+.table{
+    display: inline-block;
+    margin-top: 170px;
+    margin-right: 100px;
+    width: 780px;
+    float: right;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.LogoIMG{
+    width: 150px;
+    height: 36px;
+}
+.text-number{
+    padding-top: 18px !important;
+}
+.table td:hover{
+    color: chocolate !important;
+}

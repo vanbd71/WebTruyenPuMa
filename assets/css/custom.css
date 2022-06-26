@@ -1,0 +1,44 @@
+.LogoIMG{
+    width: 150px;
+    height: 36px;
+    border: 0px solid #f18121;
+    border-radius: 10px;
+}
+.bg-primary{
+    background-color: #f18121 !important;
+    margin-top: 50px;
+}
+.text-white{
+    text-decoration: none;
+}
+.text-u{
+    margin-top: 8px;
+}
+.icondown-1{
+    color: #fff;
+}
+.bg-primary a{
+    text-decoration: none;
+}
+.text-font{
+    margin-left: 24px;
+    margin-top: -12px;
+    font-family: 'theme';
+}
+.icondown-2{
+    padding-left: 10px;
+}
+.text-a{
+    color: #fff;
+    margin-left: -10px;
+}
+.text-uppercase{
+    text-transform: capitalize !important;
+}
+.text-a:hover,
+.list-unstyled a:hover,
+.icondown-1:hover,
+.text-font:hover{
+    color: aqua !important;
+    font-size: 18px;
+}

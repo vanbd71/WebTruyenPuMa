@@ -1,0 +1,340 @@
+body
+{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: arial;
+    background-color: #ebebeb;
+}
+#SmallBlock
+{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+}
+#Logo{
+			background-color:rgb(202, 217, 212);
+			padding-top: 5px;
+			padding-bottom: 5px;
+			width: 100%;
+			height: 60px;
+			top: 0;
+			left: 0;
+			right: 0;
+			position: fixed;
+			box-sizing: content-box;
+		}
+		.Logo-img{
+			width: 150px;
+			margin-left: 10%;
+		}
+		.FlexBlock
+		{
+			display: flex;
+		}
+		.FlexBlocks{
+			display: flex;
+		}
+		.FlexBlock::after::before{
+			box-sizing: content-box;
+		}
+		#SmallBlock ,
+		#SmallBlock::before,
+		#SmallBlock::after {
+  		box-sizing: content-box !important;
+		}	
+		.FlexBlock a
+		{
+			text-decoration: none;
+		}
+		.Thumb
+		{
+			width: 183px;
+			height: 238px;
+		}
+		.LinkTextLogo
+		{
+			text-decoration: none;
+			color: #606360;
+			padding-right: 10px;
+		}
+		.LinkTextLogo:hover
+		{
+			color: #f18121;
+		}
+		.SearchIcon
+		{
+			padding-top: 4px;
+			margin-left: 10px;
+		}
+		.SearchIcon a
+		{
+			text-decoration: none;
+			color: #f2882e;
+		}
+		.SearchBar
+		{
+			border: none;
+			width: 440px;
+			height: 30px;
+			padding-top: 8px;
+			outline: none;
+		}
+		.LogoIMG
+		{
+			margin-top: 10px;
+			margin-right: 100px;
+		}
+		.SearchBarBlock
+		{
+			padding-left: 20px;
+			height: 40px;
+			width: 450px;
+		}
+		.SearchBarBorder
+		{
+			display: flex;
+			border: solid 1px #e0e0e0;
+			border-radius: 50px;
+			width: 500px;
+			background-color: #fff;
+		}
+		.SearchBarBorderPadding
+		{
+			margin-left: 150px;
+			padding-top: 8px;
+		
+		}
+		.LogoText
+		{
+			margin-left: 120px;
+			padding-top: 15px;
+		}
+#header{
+		margin-top: 70px;
+		padding-left: 5%;
+		padding-right: 5%;
+		height: 46px;
+		background-color: #f18121;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		}
+		#nav {
+		display:inline-block;
+		margin: 0 -16px;
+		}
+		#nav .subnav{
+			list-style: none;
+			padding-inline-start:0;
+		}
+		#nav li {
+			position: relative;
+		}
+		#nav >li{
+			display: inline-block;
+			
+		}
+		#nav li:hover .subnav{
+			display: block;
+		}
+		#nav .subnav{
+			display: none;
+			min-width: 180px;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			text-align: center;
+		}
+
+		#nav .subnav li {
+			width: 100%;
+
+		}
+		#nav> li> a {
+			color: #fff;
+			text-transform: uppercase;
+		}
+		#nav li a { 
+
+			text-decoration: none;
+			line-height: 48px;
+			padding: 0 24px;
+			display: block;
+		}
+		#nav .subnav >li:hover > a{
+			color:#f18121;
+			background-color: #ccc;
+			position: relative;
+			padding-right: 40px;
+			font-size: 18px;
+		}
+		#nav >li:hover > a{
+			color: #000;
+			background-color: #ccc;
+		
+		}
+		#nav .subnav a {
+			color: #000;
+			padding: 0 12px;
+			line-height: 38px;  
+		}
+		#nav .icondown{
+			font-size: 12px;
+		}
+		#header .mobile-menu-btn{
+			position :absolute;
+			top: 0;
+			right: 0;
+		}
+		.mobile-menu-btn{
+			display: inline-block;
+			float: right;
+			width: 50px;
+		
+		}
+		.mobile-icon {
+			color:#fff;
+			font-size: 30px;
+			line-height: 46px;
+			padding-left: 10px;
+		}
+		.mobile-menu-btn:hover{
+			background-color:#ccc;
+		}
+		.mobile-icon:hover {
+			color: #f18121;
+		
+		}
+.NavBar
+		{
+			height: 40px;
+			background-color: #2c7abe;
+		}
+		.NavBarText
+		{
+			padding-left: 12px;
+			padding-right: 12px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			color: #dde8f5;
+		}
+		.NavBarText:hover
+		{
+			background-color: #f29c57;
+		} 
+		.main
+		{
+			background-color: #fff;
+			width: 80%;
+			padding-top: 20px;
+			float: none;
+		}
+		.TitleText
+		{
+			text-decoration: none;
+			color: #ff2853;
+		}
+		.PaddingTitleText
+		{
+			margin-top: 120px;
+			padding-bottom: 25px;
+		}
+		.PaddingTitleText2{
+			margin-top: 20px;
+			margin-bottom: 25px;
+		}
+		.PaddingTitleText3
+		{
+			margin: 0px;
+			padding-bottom: 25px;
+			padding-top: 20px;
+		}
+		.Name
+		{
+			color: black;
+		}
+		.Name:hover
+		{
+			color: #f18121;
+		}
+		.Chapter
+		{
+			color: #ababab;
+		}
+		.Chapter:hover
+		{
+			color: #f18121;
+		}
+		.column
+		{
+			width: 16,6666%;
+			height: 327px;
+			padding-right: 40px;
+		}
+		.column center
+		{
+			padding-top: 15px;
+		}
+		.TitleText,
+		.TitleText2,
+		.TitleText3{
+			color: #ff2853;
+			text-decoration: none
+		}
+		.TitleText:hover,
+		.TitleText2:hover,
+		.TitleText3:hover
+		{
+			color: #f18121;
+		}
+		.icon-search{
+			color: #fff;
+			text-decoration: none;
+			line-height: 46px;
+			float: right;
+			margin-right: 15%;
+			display: none;
+		}
+		.icondown-search{
+			font-size: 16px;
+		}
+/* truyentrong*/
+.backgroudmau{
+	width: 80%;
+}
+.navtruyen{
+	margin-top: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #fff;
+}
+.tieude a{
+	text-decoration: none;
+}
+.tieude a:hover{
+	color: #f18121
+
+}
+.icon-next{
+	color: #ccc;
+	text-decoration: none;
+}
+.nametruyen{
+	font-size: 24px !important;
+	font-family: Tahoma, sans-serif !important;
+}
+.ngaygio{
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+.noidung{
+	display: flex;
+}
+.noidungs li{
+	text-decoration: none;
+}
+/*doctruyen*/
